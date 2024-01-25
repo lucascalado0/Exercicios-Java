@@ -1,5 +1,5 @@
 //Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal,
-// usando a seguinte fórmula: (72.7*altura) - 58
+// usando a seguinte fórmula: (72.7*altura) - 58.
 package org.example;
 
 import java.util.Scanner; //importando ferramenta scanner que permite interação do usuário com o programa
