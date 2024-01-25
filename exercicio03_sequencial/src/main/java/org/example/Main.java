@@ -2,7 +2,7 @@
 
 package org.example;
 import java.util.Scanner; //importando ferramenta scanner que permite interação do usuário com o programa
-import java.util.Locale; //importando ferramenta para formatação de número
+import java.util.Locale; //importando ferramenta que permite entrada de números padrão us ex: "10.5"
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US); //instanciando a ferramenta scanner + locale
