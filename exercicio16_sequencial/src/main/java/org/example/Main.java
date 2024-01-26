@@ -13,18 +13,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in).useLocale(Locale.US); //instanciando scanner + locale
 
-        int area;
+        int area; //declarando atributos
         double cobertura = 3;
 
-        System.out.println("Informe a área a ser pintada(em metros): ");
-        area = scanner.nextInt();
+        System.out.println("Informe a área a ser pintada(em metros): "); //solicitando informação da área a ser pintada
+        area = scanner.nextInt(); //permitindo interação e guardando informação no atributo area
 
-        double quantidadeDeTinta = area / cobertura;
+        double quantidadeDeTinta = area / cobertura; //declarando atributos e atribuindo fórmulas
         double quantidadeDeLatas = (int) Math.ceil(quantidadeDeTinta / 18);
         double precoTotal = quantidadeDeLatas * 80.00;
 
-        System.out.println("Quantidade de latas necessárias: " + quantidadeDeLatas);
-        System.out.println("\nPreço total a ser pago: R$" + precoTotal);
+        System.out.println("Quantidade de latas necessárias: " + quantidadeDeLatas); //imprindo quantidade de latas necessárias
+        System.out.println("\nPreço total a ser pago: R$" + precoTotal); //imprimindo preço total a ser pago
 
     }
 }
